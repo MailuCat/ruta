@@ -1,12 +1,14 @@
 <template>
   <div>
-    hola soy Home
+    <h1>Ultimos Post</h1>
   </div>
 </template>
-
 <script>
-
 export default {
-  name: 'Home',
+    name: 'UltimosPost',
+  
 }
 </script>
+<style scoped>
+
+</style>

@@ -1,12 +1,13 @@
 <template>
   <div>
-    hola soy Home
+    <h1>This No Existe</h1>
   </div>
 </template>
-
 <script>
-
 export default {
-  name: 'Home',
+  name: 'NoExiste',
 }
 </script>
+<style scoped>
+
+</style>
