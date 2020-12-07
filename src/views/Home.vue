@@ -1,11 +1,11 @@
 <template>
-  <div>
-     <div class="container mt-3 mb-10" >
-        <h1 >Chevrolet presenta la totalmente nueva Blazer</h1>
-        <h4 class="bg-lighy">Llega como la primera SUV deportiva de la marca</h4>
+  <div class="bg-secondary ">
+     <div class="container  mb-10 ">
+        <h1 class="text-white p-4 font-weight-bold " >Chevrolet presenta la totalmente nueva Blazer</h1>
+        <h4 class="text-white p-0 font-weight-bold ">Llega como la primera SUV deportiva de la marca</h4>
       </div>
-      <div>
-      <img src="../assets/img/home-bg.jpg" class="img-responsive" width="100%" height="580">
+      <div class="mt-4">
+      <img src="../assets/img/home-bg.jpg" class="img-responsive" width="100%" height="500vh">
       </div>
     </div>
 </template>
@@ -16,15 +16,8 @@ export default {
 }
 </script>
 <style scoped>
-    
-    h1{
-        text-align: center;
-        font-family:Arial, Helvetica, sans-serif;
-      }
-    p{
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-    }
-   
-      </style>
+h1, h4{
+  text-align: center;
+}
+
+            </style>

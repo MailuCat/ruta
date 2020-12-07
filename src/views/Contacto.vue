@@ -1,8 +1,8 @@
 <template>
-  <div class="flex-container">
+  <div class="flex-container bg-secondary">
      <div class="container m-5">
-       <h1>Contacto</h1>
-       <div class="saludo">
+       <h1 class="text-white">Contacto</h1>
+       <div class="saludo text-white">
           <p>¿Tienes dudas o sugerencias?.</p>
           <p>Déjame un mensaje y me contactaré contigo.</p>
        </div>
@@ -13,12 +13,12 @@
         <p>Teléfono</p>
         <input class="form-control" type="text" placeholder="">
         <div class="form-group">
-           <label for="exampleFormControlTextarea1">Mensaje</label>
+           <label for="exampleFormControlTextarea1" class="text-white">Mensaje</label>
            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
      </div>
     <div class=" ml-5">
-      <img src="../assets/img/contact-bg.jpg" class="border-box"  width="100%" height="600">
+      <img src="../assets/img/contact-bg.jpg" class="rounded float-right p-5"  width="100%" height="100%">
   </div>
   </div>
 </template>
@@ -34,6 +34,8 @@ export default {
   }
  .flex-container{
       display:flex;
-
+  }
+  p{
+    color: white;
   }
 </style>

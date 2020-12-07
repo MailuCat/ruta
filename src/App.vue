@@ -5,7 +5,7 @@
       </div>
     <router-view/>
 
-     <p class="light bg-light mt-3 mb-0 text-center">Copyright © V8 - 2018</p>
+     <p class="text-light bg-dark  mb-0 text-center">Copyright © V8 - 2018</p>
     
   </div>
 </template>
@@ -17,7 +17,6 @@
         NavBar
     }
 }
-
 </script>
 <style scoped>
 #nav a {
@@ -27,4 +26,4 @@
   p{
     font-size: 0.7rem;
   }
-</style>
+ </style>
