@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-container bg-secondary">
+  <div class="flex-container bg-secondary" >
      <div class="container m-5">
        <h1 class="text-white">Contacto</h1>
        <div class="saludo text-white">
@@ -20,6 +20,7 @@
     <div class=" ml-5">
       <img src="../assets/img/contact-bg.jpg" class="rounded float-right p-5"  width="100%" height="100%">
   </div>
+      <router-view name="lazyloading"></router-view>
   </div>
 </template>
 <script>
@@ -29,6 +30,11 @@ export default {
 }
 </script>
 <style scoped>
+
+.container{
+  height: 80vh;
+
+}
   .saludo{
     margin: 2px;
   }

@@ -5,8 +5,9 @@
         <h4 class="text-white p-0 font-weight-bold ">Llega como la primera SUV deportiva de la marca</h4>
       </div>
       <div class="mt-4">
-      <img src="../assets/img/home-bg.jpg" class="img-responsive" width="100%" height="500vh">
+      <img src="../assets/img/home-bg.jpg" class="img-responsive" width="100%" height="700vh">
       </div>
+      <router-view name="lazyloading"></router-view>
     </div>
 </template>
 <script>
@@ -19,5 +20,4 @@ export default {
 h1, h4{
   text-align: center;
 }
-
-            </style>
+</style>

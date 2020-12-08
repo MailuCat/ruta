@@ -10,7 +10,7 @@
     <p>El interior es donde más se asemeja a su hermano deportivo Camaro, con un tablero deportivo y realmente muy equipado, con detalles como las salidas de aire circulares, pantalla central en tablero de instrumentos, volante deportivo, sistema multimedia con MyLink con Android Auto y Apple Carplay, cargador inhalámbrico, mientras que según su versión, los asientos están tapizados en cuero negro perforado en la versión Premier mientras que en la versión RS el tapiz con inserciones de micro fibra gamuzada y detalles rojos en todo el interior.</p>
     <p>Su equipamiento de seguridad es realmente completo, ofreciendo desde los siete airbags, control de estabilidad, frenos de disco en las cuatro ruedas, control crucero adaptativo, alerta de cambio de carril, alerta de tráfico cruzado, alerta de colisión frontal, asistente de frenado a bajas velocidades, alerta en el asiento del conductor, asistente activo de estacionamiento y cámara de 360°.</p>
     <p>El motor de ambas versiones es un V6 de 3.6 litros que entrega una potencia de 308 Hp y 365 Nm, que se acopla a una caja automática de nueve velocidades, transmitiendo al suelo esta potencia gracias a un sistema AWD con diferentes modos de manejo. Para mejorar algo la eficiencia, integra un sistema de encendido y apagado de motor automático Start&Stop.</p>
-   
+   <router-view name="lazyloading"></router-view>
   </div>
 </template>
 <script>
